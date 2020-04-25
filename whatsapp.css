@@ -1,0 +1,22 @@
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding:8px 5px 8px;
+  color: white;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+.icon-bar i{font-size:35px}
+.icon-bar span{font-size: 13px;
+background-color: #2DC100;
+text-transform: uppercase;
+font-family: Lato;
+letter-spacing: 0.5px;
+position: absolute;
+opacity: 0;
+padding: 12.5px 5px;
+top: 0;}
+.icon-bar .whatsapplink{background-color: #2DC100;}
+.icon-bar a:hover > i{}
+.icon-bar a:hover > span{opacity: 1;background: #42495b;}
