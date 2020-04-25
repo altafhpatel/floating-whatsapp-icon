@@ -1,0 +1,22 @@
+<div class="icon-bar">
+<a  target="_blank" title="Contact Us On WhatsApp" href="https://web.whatsapp.com/send?phone=+91xxxxxxxxx&amp;text=Hi, I would like to get more information.." class="whatsapplink hidemobile ss-fly-whatsapp">
+<i class="fa fa-fw fa-whatsapp"></i>
+<span>WhatsApp</span>
+</a>
+<a  target="_blank" title="Contact Us On WhatsApp" href="https://api.whatsapp.com/send?phone=+91xxxxxxxxx&text=Hi,%20I%20would%20like%20to%20get%20more%20information.." class="whatsapplink hideweb" style="background-color:#2DC100">
+<i class="fa fa-fw fa-whatsapp"></i>
+<span>WhatsApp</span>
+</a>
+</div>
+
+<script type="text/javascript"> 
+var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));  
+if (mobile) { 
+
+jQuery('.hidemobile').css('display', 'none'); // OR you can use $('.hidemobile').hide();
+} 
+else 
+{ 
+jQuery('.hideweb').css('display', 'none'); // OR you can use $('.hideweb').hide();
+}
+</script>
